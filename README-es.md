@@ -309,3 +309,9 @@ Si skillshare te resulta útil, regálale una ⭐
 ## Licencia
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+La rama main publica automáticamente el panel y la documentación. Se requiere un servicio HTTPS con CORS; la dirección queda en el navegador. MCP, Hooks, Plugins, extensiones y reinicio/actualización mantienen sus protecciones locales. Para esas operaciones, usa la interfaz original del servicio.

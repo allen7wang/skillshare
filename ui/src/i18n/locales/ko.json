@@ -3503,5 +3503,12 @@
   "memory.starterHint": "초기 노트가 준비되었습니다. 선호 사항, 결정 또는 검증된 교훈을 추가하세요.",
   "memory.recentlyUpdated": "최근 업데이트",
   "memory.updated": "업데이트: {time}",
-  "memory.configuredHint": "설정됨은 지침 파일이 여기를 가리킨다는 뜻이며, 에이전트가 읽었다는 뜻은 아닙니다."
+  "memory.configuredHint": "설정됨은 지침 파일이 여기를 가리킨다는 뜻이며, 에이전트가 읽었다는 뜻은 아닙니다.",
+  "pages.title": "서비스 연결",
+  "pages.description": "배포된 HTTPS 서비스 주소를 입력하세요. 주소는 이 브라우저에만 저장됩니다. 서비스에서 이 사이트의 CORS를 허용해야 합니다.",
+  "pages.address": "HTTPS 서비스 주소",
+  "pages.invalid": "인증 정보, 쿼리, 프래그먼트가 없는 HTTPS 주소를 사용하고 브라우저 저장을 허용하세요.",
+  "pages.connect": "연결",
+  "pages.settings": "서비스 설정",
+  "pages.localOnly": "MCP, Hooks, Plugins 및 재시작과 업데이트 보호는 유지됩니다. 동일 출처가 필요한 작업은 원래 서비스 화면에서 실행하세요."
 }

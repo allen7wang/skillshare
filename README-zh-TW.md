@@ -308,3 +308,9 @@ make check  # format + lint + test
 ## 授權
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+main 更新後自動發佈管理介面與文件。首次使用須設定已部署並允許跨來源請求的 HTTPS 服務，位址僅儲存在目前瀏覽器。MCP、Hooks、Plugins、目標擴充與重新啟動升級保留本機保護；這些操作請使用原服務介面。GitHub Pages 不執行 Go 服務或讀取本機技能檔案。

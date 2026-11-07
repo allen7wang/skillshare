@@ -1,6 +1,7 @@
+import { getPagesService } from '../lib/pagesService';
 import { BASE_PATH } from '../lib/basePath';
 
-export const BASE = BASE_PATH + '/api';
+export const BASE = (getPagesService() || BASE_PATH) + '/api';
 
 export class ApiError extends Error {
   status: number;

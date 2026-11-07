@@ -11,7 +11,7 @@ const API = `http://localhost:${process.env.SKILLSHARE_API_PORT || 19420}`
 const SSE_PROXY = { target: API, headers: { Accept: 'text/event-stream' } }
 
 export default defineConfig({
-  base: './',
+  base: process.env.GITHUB_PAGES === 'true' ? '/skillshare-web/' : './',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'jsdom',

@@ -309,3 +309,9 @@ Si skillshare vous est utile, pensez à lui donner une ⭐
 ## Licence
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+La branche main publie automatiquement le tableau de bord et la documentation. Un service HTTPS avec CORS est nécessaire ; son adresse reste dans le navigateur. MCP, Hooks, Plugins, extensions et redémarrage/mise à jour conservent leurs protections locales. Utilisez l’interface originale pour ces opérations.

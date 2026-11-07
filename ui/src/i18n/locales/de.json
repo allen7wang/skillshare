@@ -3503,5 +3503,12 @@
   "memory.starterHint": "Die Startnotizen sind bereit. Ergänze eine Vorliebe, Entscheidung oder bestätigte Erkenntnis.",
   "memory.recentlyUpdated": "Zuletzt aktualisiert",
   "memory.updated": "Aktualisiert: {time}",
-  "memory.configuredHint": "Konfiguriert bedeutet, dass die Anweisungsdatei hierher verweist, nicht dass ein Agent sie gelesen hat."
+  "memory.configuredHint": "Konfiguriert bedeutet, dass die Anweisungsdatei hierher verweist, nicht dass ein Agent sie gelesen hat.",
+  "pages.title": "Dienst verbinden",
+  "pages.description": "HTTPS-Adresse des bereitgestellten Dienstes eingeben. Sie bleibt in diesem Browser. Der Dienst muss diese Website per CORS zulassen.",
+  "pages.address": "HTTPS-Dienstadresse",
+  "pages.invalid": "HTTPS-Adresse ohne Zugangsdaten, Parameter oder Fragment verwenden und Browserspeicher zulassen.",
+  "pages.connect": "Verbinden",
+  "pages.settings": "Diensteinstellungen",
+  "pages.localOnly": "Lokale Schutzmaßnahmen für MCP, Hooks, Plugins sowie Neustart/Upgrade bleiben aktiv. Gleichursprungsaktionen in der ursprünglichen Dienstoberfläche ausführen."
 }

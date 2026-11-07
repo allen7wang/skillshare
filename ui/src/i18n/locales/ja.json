@@ -3503,5 +3503,12 @@
   "memory.starterHint": "初期ノートを用意しました。好み、決定事項、検証済みの知見を追加してください。",
   "memory.recentlyUpdated": "最近の更新",
   "memory.updated": "更新：{time}",
-  "memory.configuredHint": "設定済みは指示ファイルがここを指していることを示し、エージェントが読んだことを意味しません。"
+  "memory.configuredHint": "設定済みは指示ファイルがここを指していることを示し、エージェントが読んだことを意味しません。",
+  "pages.title": "サービスに接続",
+  "pages.description": "デプロイ済みの HTTPS サービス URL を入力します。このブラウザーにのみ保存されます。サービス側でこのサイトの CORS を許可する必要があります。",
+  "pages.address": "HTTPS サービス URL",
+  "pages.invalid": "認証情報やクエリ、フラグメントを含まない HTTPS URL を使用し、ブラウザーの保存を許可してください。",
+  "pages.connect": "接続",
+  "pages.settings": "接続設定",
+  "pages.localOnly": "MCP、Hooks、Plugins、再起動と更新の保護は維持されます。同一オリジンが必要な操作は元のサービス画面で実行してください。"
 }

@@ -1,3 +1,4 @@
+import PagesConnection from './components/PagesConnection';
 import { lazy, Suspense } from 'react';
 import { createBrowserRouter, RouterProvider, Routes, Route, Navigate, useRouteError, useParams, useSearchParams } from 'react-router-dom';
 import { QueryClientProvider } from '@tanstack/react-query';
@@ -130,9 +131,9 @@ export default function App() {
       <ThemeProvider>
         <I18nProvider>
           <ToastProvider>
-            <AppProvider>
+            <PagesConnection><AppProvider>
               <RouterProvider router={router} />
-            </AppProvider>
+            </AppProvider></PagesConnection>
           </ToastProvider>
         </I18nProvider>
       </ThemeProvider>

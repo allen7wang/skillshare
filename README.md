@@ -417,3 +417,7 @@ You can also help by giving skillshare a ⭐ on GitHub!
 ## License
 
 MIT
+
+## GitHub Pages access
+
+[Open the dashboard](https://allen7wang.github.io/skillshare-web/). Main updates publish the dashboard and documentation runtime through the Pages workflow. The frontend requires a deployed HTTPS service with explicit CORS support; its address is stored only in the current browser. MCP, Hooks, Plugins, target extensions and restart/upgrade retain their local server protections. Open the original service interface for same-origin operations. GitHub Pages does not run the Go service or access local skill files.

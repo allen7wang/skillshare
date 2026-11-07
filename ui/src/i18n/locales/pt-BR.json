@@ -3503,5 +3503,12 @@
   "memory.starterHint": "As notas iniciais estão prontas. Adicione uma preferência, decisão ou lição verificada.",
   "memory.recentlyUpdated": "Atualizadas recentemente",
   "memory.updated": "Atualizada {time}",
-  "memory.configuredHint": "Configurado significa que o arquivo de instruções aponta para cá, não que um agente o tenha lido."
+  "memory.configuredHint": "Configurado significa que o arquivo de instruções aponta para cá, não que um agente o tenha lido.",
+  "pages.title": "Conectar serviço",
+  "pages.description": "Informe o endereço HTTPS do serviço publicado. Ele fica apenas neste navegador. O serviço deve permitir este site via CORS.",
+  "pages.address": "Endereço HTTPS do serviço",
+  "pages.invalid": "Use um endereço HTTPS sem credenciais, parâmetros ou fragmentos e permita o armazenamento do navegador.",
+  "pages.connect": "Conectar",
+  "pages.settings": "Configurações do serviço",
+  "pages.localOnly": "As proteções locais de MCP, Hooks, Plugins e reinício/atualização continuam ativas. Use a interface original para operações de mesma origem."
 }

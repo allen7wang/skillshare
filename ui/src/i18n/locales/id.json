@@ -3503,5 +3503,12 @@
   "memory.starterHint": "Catatan awal sudah siap. Tambahkan preferensi, keputusan, atau pelajaran terverifikasi.",
   "memory.recentlyUpdated": "Baru diperbarui",
   "memory.updated": "Diperbarui {time}",
-  "memory.configuredHint": "Dikonfigurasi berarti berkas instruksi mengarah ke sini, bukan berarti agen sudah membacanya."
+  "memory.configuredHint": "Dikonfigurasi berarti berkas instruksi mengarah ke sini, bukan berarti agen sudah membacanya.",
+  "pages.title": "Hubungkan layanan",
+  "pages.description": "Masukkan alamat HTTPS layanan yang telah diterapkan. Alamat hanya disimpan di browser ini. Layanan harus mengizinkan situs ini melalui CORS.",
+  "pages.address": "Alamat HTTPS layanan",
+  "pages.invalid": "Gunakan alamat HTTPS tanpa kredensial, parameter, atau fragmen dan izinkan penyimpanan browser.",
+  "pages.connect": "Hubungkan",
+  "pages.settings": "Pengaturan layanan",
+  "pages.localOnly": "Perlindungan lokal MCP, Hooks, Plugins, serta mulai ulang/peningkatan tetap aktif. Gunakan antarmuka asli untuk operasi asal yang sama."
 }

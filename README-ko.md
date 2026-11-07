@@ -308,3 +308,9 @@ skillshare가 유용했다면 ⭐를 눌러 주세요
 ## 라이선스
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+main 업데이트 시 대시보드와 문서를 자동 게시합니다. CORS를 허용한 HTTPS 서비스가 필요하며 주소는 브라우저에 저장됩니다. MCP, Hooks, Plugins, 대상 확장 및 재시작과 업데이트의 로컬 보호는 유지됩니다. 해당 작업은 원래 서비스 화면에서 실행하세요.

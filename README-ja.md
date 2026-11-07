@@ -308,3 +308,9 @@ skillshare が役に立ったら、⭐ をお願いします
 ## ライセンス
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+main の更新でダッシュボードとドキュメントを自動公開します。CORS を許可した HTTPS サービスが必要です。アドレスはブラウザー内に保存されます。MCP、Hooks、Plugins、拡張機能、再起動と更新のローカル保護は維持されるため、これらの操作には元のサービス画面を使用してください。

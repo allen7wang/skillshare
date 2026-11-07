@@ -1,0 +1,18 @@
+{
+  "title": "skillshare",
+  "source_repository": "allen7wang/skillshare",
+  "site_repository": "allen7wang/skillshare-web",
+  "commands": [],
+  "directory": "ui/dist",
+  "files": [
+    "ui/dist"
+  ],
+  "backend": true,
+  "native_connection_ui": true,
+  "extras": [
+    {
+      "source": "website/build",
+      "destination": "docs-site"
+    }
+  ]
+}

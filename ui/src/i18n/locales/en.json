@@ -3503,5 +3503,12 @@
   "memory.starterHint": "Your starter notes are ready. Add a preference, decision, or verified lesson.",
   "memory.recentlyUpdated": "Recently updated",
   "memory.updated": "Updated {time}",
-  "memory.configuredHint": "Configured means the instruction file points here, not that an agent has read it."
+  "memory.configuredHint": "Configured means the instruction file points here, not that an agent has read it.",
+  "pages.title": "Connect your service",
+  "pages.description": "Enter your deployed HTTPS service address. It is stored only in this browser. The service must explicitly allow this site through CORS.",
+  "pages.address": "HTTPS service address",
+  "pages.invalid": "Use an HTTPS address without credentials, query parameters or fragments. Browser storage must be available.",
+  "pages.connect": "Connect",
+  "pages.settings": "Service settings",
+  "pages.localOnly": "MCP, Hooks, Plugins and restart/upgrade retain local server protections. Open the original service UI for operations that require the same origin."
 }

@@ -3503,5 +3503,12 @@
   "memory.starterHint": "初始笔记已准备好。添加一项偏好、决策或已验证的经验。",
   "memory.recentlyUpdated": "最近更新",
   "memory.updated": "更新时间：{time}",
-  "memory.configuredHint": "已配置表示指令文件已指向这里，不代表 agent 已读取。"
+  "memory.configuredHint": "已配置表示指令文件已指向这里，不代表 agent 已读取。",
+  "pages.title": "连接你的服务",
+  "pages.description": "填写已部署的 HTTPS 服务地址，地址只保存在当前浏览器。服务需明确允许本站的跨域请求。",
+  "pages.address": "HTTPS 服务地址",
+  "pages.invalid": "请使用不含凭据、参数或片段的 HTTPS 地址，并允许浏览器保存设置。",
+  "pages.connect": "连接",
+  "pages.settings": "服务设置",
+  "pages.localOnly": "MCP、Hooks、Plugins 和重启升级保留本地服务保护。需要同源的操作请打开服务原有界面。"
 }

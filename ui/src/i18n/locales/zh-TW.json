@@ -3503,5 +3503,12 @@
   "memory.starterHint": "起始筆記已備妥。加入一項偏好、決策或已驗證的經驗。",
   "memory.recentlyUpdated": "最近更新",
   "memory.updated": "更新時間：{time}",
-  "memory.configuredHint": "已設定表示指令檔已指向這裡，不代表 agent 已經讀過。"
+  "memory.configuredHint": "已設定表示指令檔已指向這裡，不代表 agent 已經讀過。",
+  "pages.title": "連接你的服務",
+  "pages.description": "填寫已部署的 HTTPS 服務位址，位址僅儲存在目前瀏覽器。服務須明確允許本站的跨來源請求。",
+  "pages.address": "HTTPS 服務位址",
+  "pages.invalid": "請使用不含憑證、參數或片段的 HTTPS 位址，並允許瀏覽器儲存設定。",
+  "pages.connect": "連接",
+  "pages.settings": "服務設定",
+  "pages.localOnly": "MCP、Hooks、Plugins 與重新啟動升級保留本機服務保護。需要同源的操作請開啟服務原有介面。"
 }

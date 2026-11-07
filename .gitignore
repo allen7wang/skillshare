@@ -43,3 +43,7 @@ video/node_modules/
 /specs/
 .archify/
 .playwright-mcp
+/dist-pages/
+
+__pycache__/
+/dist-pages/

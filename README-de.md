@@ -309,3 +309,9 @@ Wenn dir skillshare hilft, freuen wir uns über einen ⭐
 ## Lizenz
 
 MIT
+
+## GitHub Pages
+
+[Web](https://allen7wang.github.io/skillshare-web/) · [Docs](https://allen7wang.github.io/skillshare-web/docs-site/)
+
+Der main-Zweig veröffentlicht Dashboard und Dokumentation automatisch. Ein bereitgestellter HTTPS-Dienst mit CORS ist erforderlich; die Adresse bleibt im Browser. MCP, Hooks, Plugins, Zielerweiterungen sowie Neustart/Upgrade behalten ihren lokalen Schutz. Verwenden Sie für diese Vorgänge die ursprüngliche Dienstoberfläche.

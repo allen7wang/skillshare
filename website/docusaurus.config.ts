@@ -14,8 +14,8 @@ const config: Config = {
     experimental_faster: true,
   },
 
-  url: 'https://skillshare.runkids.cc',
-  baseUrl: '/',
+  url: process.env.GITHUB_PAGES === 'true' ? 'https://allen7wang.github.io' : 'https://skillshare.runkids.cc',
+  baseUrl: process.env.GITHUB_PAGES === 'true' ? '/skillshare-web/docs-site/' : '/',
 
   organizationName: 'runkids',
   projectName: 'skillshare',
