@@ -22,11 +22,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Build dashboard inside the required devcontainer
-        uses: devcontainers/ci@v0.3
-        with:
-          push: never
-          runCmd: |
+      - name: Build and verify in the repository devcontainer image
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker build -f docker/sandbox/Dockerfile -t skillshare-pages-dev .
+          docker run --rm --entrypoint bash -v "$PWD:/workspace" -w /workspace skillshare-pages-dev -c '
+            set -euo pipefail
             cd /workspace/ui
             pnpm install --frozen-lockfile
             pnpm test -- src/components/PagesConnection.test.tsx src/lib/pagesService.test.ts
@@ -36,6 +38,7 @@ jobs:
             GITHUB_PAGES=true npm run build
             cd /workspace
             python3 scripts/github-pages.py
+          '
       - name: Check out public runtime
         uses: actions/checkout@v4
         with:
