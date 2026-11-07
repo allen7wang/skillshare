@@ -50,7 +50,7 @@ for extra in config.get('extras', []):
     for artifact in (OUTPUT / extra['destination']).rglob('*'):
         if artifact.suffix in {'.html', '.js', '.css', '.txt'}:
             text = artifact.read_text()
-            text = re.sub(r'([\"\'])/(img|video|audio|fonts)/', lambda m: m[1] + prefix + m[2] + '/', text)
+            text = re.sub(r"""(["\x27`])/(img|video|audio|fonts)/""", lambda m: m[1] + prefix + m[2] + "/", text)
             text = re.sub(r'((?:src|poster|href)=)([\"\']?)/(img|video|audio|fonts)/', lambda m: m[1] + m[2] + prefix + m[3] + '/', text)
             text = text.replace('https://allen7wang.github.io/llms-full.txt', 'https://allen7wang.github.io' + prefix + 'llms-full.txt')
             artifact.write_text(text)
