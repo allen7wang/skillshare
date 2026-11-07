@@ -36,9 +36,8 @@ jobs:
             cd /workspace/website
             npm ci --no-audit --no-fund
             GITHUB_PAGES=true npm run build
-            cd /workspace
-            python3 scripts/github-pages.py
           '
+          python3 scripts/github-pages.py
       - name: Check out public runtime
         uses: actions/checkout@v4
         with:
