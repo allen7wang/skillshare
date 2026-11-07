@@ -1,6 +1,7 @@
 import type {ReactNode, RefObject} from 'react';
 import {useEffect, useRef, useState} from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Translate, {translate} from '@docusaurus/Translate';
@@ -84,12 +85,12 @@ function HeroVideo() {
       loop
       playsInline
       preload="metadata"
-      poster="/img/skillshare-demo-poster.jpg"
+      poster={useBaseUrl('/img/skillshare-demo-poster.jpg')}
       aria-label={translate({id: 'home.demo.label', message: 'Skillshare demo: edit once, sync across AI coding tools'})}
     >
-      <source src="/video/skillshare-demo.mp4" type="video/mp4" />
-      <track kind="captions" src="/video/skillshare-demo.en.vtt" srcLang="en" label="English" />
-      <a href="/video/skillshare-demo.mp4"><Translate id="home.demo.download">Download the demo video</Translate></a>
+      <source src={useBaseUrl('/video/skillshare-demo.mp4')} type="video/mp4" />
+      <track kind="captions" src={useBaseUrl('/video/skillshare-demo.en.vtt')} srcLang="en" label="English" />
+      <a href={useBaseUrl('/video/skillshare-demo.mp4')}><Translate id="home.demo.download">Download the demo video</Translate></a>
     </video>
   );
 }
@@ -181,7 +182,7 @@ function HeroSection() {
               <Translate id="home.desktop.platforms">macOS (Apple Silicon) · Windows · Linux</Translate>
             </p>
           </div>
-          <img className={styles.heroLogo} src="/img/skillshare-logo-card.png" alt="skillshare" />
+          <img className={styles.heroLogo} src={useBaseUrl('/img/skillshare-logo-card.png')} alt="skillshare" />
         </div>
 
         <HeroVideo />

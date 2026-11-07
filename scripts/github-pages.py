@@ -51,6 +51,7 @@ for extra in config.get('extras', []):
         if artifact.suffix in {'.html', '.js', '.css', '.txt'}:
             text = artifact.read_text()
             text = re.sub(r'([\"\'])/(img|video|audio|fonts)/', lambda m: m[1] + prefix + m[2] + '/', text)
+            text = re.sub(r'((?:src|poster|href)=)([\"\']?)/(img|video|audio|fonts)/', lambda m: m[1] + m[2] + prefix + m[3] + '/', text)
             text = text.replace('https://allen7wang.github.io/llms-full.txt', 'https://allen7wang.github.io' + prefix + 'llms-full.txt')
             artifact.write_text(text)
 
@@ -79,7 +80,7 @@ if config.get('backend') and not config.get('native_connection_ui'):
 
 if config.get('native_connection_ui'):
     path = OUTPUT / 'index.html'
-    path.write_text(path.read_text().replace('</head>', '<script>window.__PAGES_BASE__=' + json.dumps(base.rstrip('/')) + ';</script></head>'))
+    path.write_text(path.read_text().replace('<head>', '<head><base href="' + base + '">').replace('</head>', '<script>window.__PAGES_BASE__=' + json.dumps(base.rstrip('/')) + ';</script></head>'))
 
 if config.get('api_optional'):
     copy(ROOT / 'scripts/pages-connection.js', OUTPUT / 'pages-connection.js')
