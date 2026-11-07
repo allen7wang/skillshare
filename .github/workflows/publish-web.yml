@@ -26,7 +26,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          docker build -f docker/sandbox/Dockerfile -t skillshare-pages-dev .
+          docker build --target ui-builder -f docker/sandbox/Dockerfile -t skillshare-pages-dev .
           docker run --rm --entrypoint bash -v "$PWD:/workspace" -w /workspace skillshare-pages-dev -c '
             set -euo pipefail
             cd /workspace/ui
