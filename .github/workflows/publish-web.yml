@@ -36,6 +36,7 @@ jobs:
             GITHUB_PAGES=true pnpm run build
             cd /workspace/website
             npm ci --no-audit --no-fund
+            npm run typecheck
             GITHUB_PAGES=true npm run build
           '
           python3 scripts/github-pages.py
