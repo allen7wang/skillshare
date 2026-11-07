@@ -31,7 +31,8 @@ jobs:
             set -euo pipefail
             cd /workspace/ui
             pnpm install --frozen-lockfile
-            pnpm test -- src/components/PagesConnection.test.tsx src/lib/pagesService.test.ts
+            pnpm run lint
+            pnpm test src/components/PagesConnection.test.tsx src/lib/pagesService.test.ts
             GITHUB_PAGES=true pnpm run build
             cd /workspace/website
             npm ci --no-audit --no-fund
