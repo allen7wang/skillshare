@@ -2,7 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { useT } from '../i18n';
 import { BASE_PATH } from '../lib/basePath';
 import Button from './Button';
-import Input from './Input';
+import { Input } from './Input';
 import DialogShell from './DialogShell';
 
 export default function PagesConnection({ children }: { children: ReactNode }) {
